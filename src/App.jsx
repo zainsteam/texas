@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { Home } from "./components/pages/home/home.jsx";
 import { Menu } from "./components/pages/menu/menu.jsx";
 import { Category } from "./components/pages/category/Category.jsx";
@@ -11,19 +11,19 @@ import { Submenu } from "./components/pages/submenu/submenu";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/texas/" element={<Home />} />
-        <Route path="/texas/home" element={<Home />} />
-        <Route path="/texas/menu" element={<Menu />} />
-        <Route path="/texas/category" element={<Category />} />
-        <Route path="/texas/about" element={<About />} />
-        <Route path="/texas/contact" element={<Contact />} />
-        <Route path="/texas/news" element={<News />} />
-        <Route path="/texas/news/:title" element={<Blog />} />
-        <Route path="/texas/menu/:submenu" element={<Submenu />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/news/:title" element={<Blog />} />
+        <Route path="/menu/:submenu" element={<Submenu />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
