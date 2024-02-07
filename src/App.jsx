@@ -13,15 +13,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/category" element={<Category />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/news/:title" element={<Blog />} />
-        <Route path="/menu/:submenu" element={<Submenu />} />
+        <Route path="/texas/" element={<Home />} />
+        <Route path="/texas/home" element={<Home />} />
+        <Route path="/texas/menu" element={<Menu />} />
+        <Route path="/texas/category" element={<Category />} />
+        <Route path="/texas/about" element={<About />} />
+        <Route path="/texas/contact" element={<Contact />} />
+        <Route path="/texas/news" element={<News />} />
+        <Route path="/texas/news/:title" element={<Blog />} />
+        <Route path="/texas/menu/:submenu" element={<Submenu />} />
       </Routes>
     </BrowserRouter>
   );
