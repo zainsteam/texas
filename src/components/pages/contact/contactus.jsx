@@ -57,6 +57,7 @@ export const Contact = () => {
                 type="text"
                 className="form-control"
                 // style="height: 100px"
+                // rows="5"
                 id="inputText"
                 placeholder="Question/Comment"
               ></textarea>

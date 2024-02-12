@@ -65,7 +65,14 @@ export const Nav = () => {
                     id="navMenu"
                     to="/menu"
                     className={
-                      splitLocation[1] === "menu" ? `${style["active"]}` : ""
+                      splitLocation[1] === "menu" ||
+                      (splitLocation[2] != "Drinks" &&
+                        splitLocation[1] !== "about" &&
+                        splitLocation[1] !== "news" &&
+                        splitLocation[1] !== "contact" &&
+                        splitLocation[1] !== "")
+                        ? `${style["active"]}`
+                        : ""
                     }
                   >
                     Menu
@@ -74,11 +81,9 @@ export const Nav = () => {
                 <li>
                   <Link
                     id="navDrinks"
-                    to="/category"
+                    to="/category/Drinks"
                     className={
-                      splitLocation[1] === "category"
-                        ? `${style["active"]}`
-                        : ""
+                      splitLocation[2] === "Drinks" ? `${style["active"]}` : ""
                     }
                   >
                     Drinks
