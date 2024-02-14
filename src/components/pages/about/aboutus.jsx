@@ -2,7 +2,7 @@ import Layout from "../../layouts/layout";
 import "./about.scss";
 import imgbox1 from "../../../assets/imgs/imagebox1.png";
 import img1 from "../../../assets/imgs/2.png";
-import location from "../../../assets/location.png";
+import location from "../../../assets/Compressed/location-min.webp";
 import embed from "../../../assets/embed.mp4";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";

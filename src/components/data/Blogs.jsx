@@ -1,9 +1,9 @@
-import news1 from "../../assets/News/news (1).png";
-import news2 from "../../assets/News/news (2).png";
-import news3 from "../../assets/News/news (3).png";
-import news4 from "../../assets/News/news (4).png";
-import news5 from "../../assets/News/news (5).png";
-import news6 from "../../assets/News/news (6).png";
+import news1 from "../../assets/Compressed/News/news (1)-min.webp";
+import news2 from "../../assets/Compressed/News/news (2)-min.webp";
+import news3 from "../../assets/Compressed/News/news (3)-min.webp";
+import news4 from "../../assets/Compressed/News/news (4)-min.webp";
+import news5 from "../../assets/Compressed/News/news (5)-min.webp";
+import news6 from "../../assets/Compressed/News/news (6)-min.webp";
 
 export const BlogsData = [
   {

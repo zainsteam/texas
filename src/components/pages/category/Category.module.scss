@@ -1,7 +1,7 @@
 .menu {
 
     .menu_pg1 {
-        background: url(../../../assets/Drinks/DrinkBg.png) center;
+        background: url(../../../assets/Compressed/Drinks/DrinkBg-min.webp) center;
         background-size: cover;
         margin-bottom: 2rem;
 
@@ -43,7 +43,10 @@
 
         .sub-text{
             text-align: center;
-            color: #a8a3a1;
+            color: #822e1c;
+            border: 2px solid #822e1c;
+            padding: 10px;
+            margin: 0 10%;
         }
 
         h1 {

@@ -1,18 +1,18 @@
-import menu1 from "../../assets/Menu/menu1.png";
-import menu2 from "../../assets/Menu/menu2.png";
-import menu3 from "../../assets/Menu/menu3.png";
-import menu7 from "../../assets/Menu/menu7.png";
-import menu5 from "../../assets/Menu/menu5.png";
-import menu12 from "../../assets/Menu/1copy.png";
-import menu8 from "../../assets/Menu/menu8.png";
-import menu10 from "../../assets/Menu/menu10.png";
-import menu11 from "../../assets/Menu/menu11.png";
-import drink1 from "../../assets/drinks/drink1.png";
-import drink2 from "../../assets/drinks/drink2.png";
-import drink3 from "../../assets/drinks/drink3.png";
-import drink4 from "../../assets/drinks/drink4.png";
-import drink5 from "../../assets/drinks/drink5.png";
-import drink6 from "../../assets/drinks/asdasdasd.png";
+import menu1 from "../../assets/Compressed/Menu/menu1-min.webp";
+import menu2 from "../../assets/Compressed/Menu/menu2-min.webp";
+import menu3 from "../../assets/Compressed/Menu/menu3-min.webp";
+import menu7 from "../../assets/Compressed/Menu/menu7-min.webp";
+import menu5 from "../../assets/Compressed/Menu/menu5-min.webp";
+import menu12 from "../../assets/Compressed/Menu/menu12-min.webp";
+import menu8 from "../../assets/Compressed/Menu/menu8-min.webp";
+import menu10 from "../../assets/Compressed/Menu/menu10-min.webp";
+import menu11 from "../../assets/Compressed/Menu/menu11-min.webp";
+import drink1 from "../../assets/Compressed/drinks/drink1-min.webp";
+import drink2 from "../../assets/Compressed/drinks/drink2-min.webp";
+import drink3 from "../../assets/Compressed/drinks/drink3-min.webp";
+import drink4 from "../../assets/Compressed/drinks/drink4-min.webp";
+import drink5 from "../../assets/Compressed/drinks/drink5-min.webp";
+import drink6 from "../../assets/Compressed/drinks/asdasdasd-min.webp";
 
 export const MenuData = [
   {

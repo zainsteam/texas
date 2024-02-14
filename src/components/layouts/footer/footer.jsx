@@ -1,9 +1,9 @@
 import style from "./footer.module.scss";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/Compressed/logo-min.webp";
 import Copyright from "../copyright/copyright";
-import doordash from "../../../assets/Doordash.png";
-import UberEat from "../../../assets/Uber_Eats.png";
-import Grubhub from "../../../assets/Grubhub.png";
+import doordash from "../../../assets/Compressed/Doordash-min.webp";
+import UberEat from "../../../assets/Compressed/Uber_Eats-min.webp";
+import Grubhub from "../../../assets/Compressed/Grubhub-min.webp";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

@@ -1,12 +1,12 @@
 import Layout from "../../layouts/layout";
 import "./contactus.scss";
-import vector from "../../../assets/imgs/vector.png";
-import vector1 from "../../../assets/imgs/vector (1).png";
-import vector2 from "../../../assets/imgs/vector (2).png";
-import social1 from "../../../assets/imgs/Group 222.png";
-import social2 from "../../../assets/imgs/Group 221.png";
-import social3 from "../../../assets/imgs/Group 220.png";
-import social4 from "../../../assets/imgs/Group 219.png";
+import vector from "../../../assets/imgs/vector-min.webp";
+import vector1 from "../../../assets/imgs/vector (1)-min.webp";
+import vector2 from "../../../assets/imgs/vector (2)-min.webp";
+import social1 from "../../../assets/imgs/Group 222-min.webp";
+import social2 from "../../../assets/imgs/Group 221-min.webp";
+import social3 from "../../../assets/imgs/Group 220-min.webp";
+import social4 from "../../../assets/imgs/Group 219-min.webp";
 import { useEffect } from "react";
 
 export const Contact = () => {

@@ -1,9 +1,9 @@
-import drink1 from "../../assets/drinks/drink1.png";
-import drink2 from "../../assets/drinks/drink2.png";
-import drink3 from "../../assets/drinks/drink3.png";
-import drink4 from "../../assets/drinks/drink4.png";
-import drink5 from "../../assets/drinks/drink5.png";
-import drink6 from "../../assets/drinks/asdasdasd.png";
+import drink1 from "../../assets/Compressed/drinks/drink1-min.webp";
+import drink2 from "../../assets/Compressed/drinks/drink2-min.webp";
+import drink3 from "../../assets/Compressed/drinks/drink3-min.webp";
+import drink4 from "../../assets/Compressed/drinks/drink4-min.webp";
+import drink5 from "../../assets/Compressed/drinks/drink5-min.webp";
+import drink6 from "../../assets/Compressed/drinks/asdasdasd-min.webp";
 
 export const DrinkData = [
   {

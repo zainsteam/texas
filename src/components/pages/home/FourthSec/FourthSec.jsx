@@ -1,6 +1,6 @@
 import style from "./FourthSec.module.scss";
-import left_image from "../../../../assets/home-pg4-1.png";
-import right_image from "../../../../assets/home-pg4-2.png";
+import left_image from "../../../../assets/Compressed/home-pg4-1-min.webp";
+import right_image from "../../../../assets/Compressed/home-pg4-2-min.webp";
 import { Link } from "react-router-dom";
 
 export const FourthSec = () => {

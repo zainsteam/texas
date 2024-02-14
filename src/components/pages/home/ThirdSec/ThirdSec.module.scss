@@ -1,11 +1,11 @@
 .page3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.235)), url(../../../../assets/home-pg3-bg.png) center;
+  background: linear-gradient(rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.235)), url(../../../../assets/Compressed/home-pg3-bg-min.webp) center;
   background-size: cover;
   min-height: 46.25rem;
   position: relative;
   margin: 0 0 15vmin 0;
   @media screen and (max-width: 600px) {
-      background: linear-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.507)), url(../../../../assets/home-pg3-bg.png) center;
+      background: linear-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.507)), url(../../../../assets/Compressed/home-pg3-bg-min.webp) center;
       background-size: cover;
   }
 

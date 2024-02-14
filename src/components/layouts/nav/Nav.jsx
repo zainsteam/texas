@@ -1,6 +1,6 @@
 import style from "./Nav.module.scss";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/Compressed/logo-min.webp";
 import React from "react";
 import { useLocation } from "react-router-dom";
 

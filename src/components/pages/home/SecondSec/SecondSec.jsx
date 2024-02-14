@@ -1,5 +1,5 @@
 import style from "./SecondSec.module.scss";
-import logo from "../../../../assets/logo.png";
+import logo from "../../../../assets/Compressed/logo-min.webp";
 import { Link } from "react-router-dom";
 
 export const SecondSec = () => {
