@@ -1,7 +1,7 @@
 import Layout from "../../layouts/layout";
 import "./about.scss";
-import imgbox1 from "../../../assets/imgs/imagebox1.png";
-import img1 from "../../../assets/imgs/2.png";
+import imgbox1 from "../../../assets/Compressed/imgs/imagebox1-min.webp";
+import img1 from "../../../assets/Compressed/imgs/2-min.webp";
 import location from "../../../assets/Compressed/location-min.webp";
 import embed from "../../../assets/embed.mp4";
 import { Link } from "react-router-dom";
