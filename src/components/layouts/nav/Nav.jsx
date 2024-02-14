@@ -54,7 +54,9 @@ export const Nav = () => {
                     id={`${style["navHome"]}`}
                     to="/"
                     className={
-                      splitLocation[1] === "" ? `${style["active"]}` : ""
+                      splitLocation[1] === "Home" || splitLocation[1] === ""
+                        ? `${style["active"]}`
+                        : ""
                     }
                   >
                     Home
@@ -70,6 +72,7 @@ export const Nav = () => {
                         splitLocation[1] !== "about" &&
                         splitLocation[1] !== "news" &&
                         splitLocation[1] !== "contact" &&
+                        splitLocation[1] !== "Home" &&
                         splitLocation[1] !== "")
                         ? `${style["active"]}`
                         : ""
