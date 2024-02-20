@@ -13,9 +13,9 @@ import drink3 from "../../assets/Compressed/drinks/drink3-min.webp";
 import drink4 from "../../assets/Compressed/drinks/drink4-min.webp";
 import drink5 from "../../assets/Compressed/drinks/drink5-min.webp";
 import drink6 from "../../assets/Compressed/drinks/asdasdasd-min.webp";
-import item1 from "../../assets/items/7.webp";
-import item2 from "../../assets/items/9.webp";
-import item3 from "../../assets/items/11.webp";
+import item1 from "../../assets/items/Drinks (2).webp";
+import item2 from "../../assets/items/Cheese Burger.webp";
+import item3 from "../../assets/items/Grilled Chicken Sandwich.webp";
 import item4 from "../../assets/items/12.webp";
 import item5 from "../../assets/items/16.webp";
 import item6 from "../../assets/items/17.webp";
@@ -53,13 +53,21 @@ import item37 from "../../assets/items/Pork Chop & eggs.webp";
 import item38 from "../../assets/items/Shrimp & Fish combo.webp";
 import item39 from "../../assets/items/Spicy Chicken Sandwich.webp";
 import item40 from "../../assets/items/Strawberry Shortcake.webp";
-import item41 from "../../assets/items/Texas Chilli.webp";
+import item41 from "../../assets/items/taxas chilli.webp";
 import item42 from "../../assets/items/Texas Forever Burger.webp";
-import item43 from "../../assets/items/The Alamo Burger.webp";
+import item43 from "../../assets/items/The Akamo Burger.webp";
 import item44 from "../../assets/items/The Big Philly.webp";
 import item45 from "../../assets/items/Thick Cut Onion Rings.webp";
 import item46 from "../../assets/items/Waffle, Eggs & Bacon.webp";
 import item47 from "../../assets/items/Western Omelet.webp";
+import item48 from "../../assets/items/Double Hamburger.webp";
+import item49 from "../../assets/items/Mushroom Swiss.webp";
+import item50 from "../../assets/items/BREAKFAST BURGER.webp";
+import item51 from "../../assets/items/Hamburger Steak.webp";
+import item52 from "../../assets/items/SOUTH TEXAS GRILLED CHICKEN.webp";
+import item53 from "../../assets/items/FRIED FISH SANDWICH.webp";
+import item54 from "../../assets/items/Sausage, Egg, and Cheese Biscuit (Breakfast) 1.webp";
+import item55 from "../../assets/items/WESTERN OMELET.webp";
 
 export const MenuData = [
   {
@@ -138,7 +146,7 @@ export const MenuData = [
       {
         name: "THICK CUT ONION RINGS",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item45}`,
         price: "3.95",
         sub_category: "SNACKS",
       },
@@ -172,7 +180,7 @@ export const MenuData = [
       {
         name: "HAMBURGER STEAK",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item51}`,
         price: "13.95",
         sub_category: "ENTREES",
       },
@@ -193,14 +201,14 @@ export const MenuData = [
       {
         name: "SHRIMP & FISH COMBO",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item38}`,
         price: "17.95",
         sub_category: "ENTREES",
       },
       {
         name: "SOUTH TEXAS GRILLED CHICKEN",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item52}`,
         price: "11.95",
         sub_category: "ENTREES",
       },
@@ -234,7 +242,7 @@ export const MenuData = [
       {
         name: "FRIED OKRA",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item26}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
@@ -248,7 +256,7 @@ export const MenuData = [
       {
         name: "MAC & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item33}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
@@ -260,7 +268,7 @@ export const MenuData = [
         sub_category: "SIDES & ADD ONS",
       },
       {
-        name: "TORNADO FRIES ",
+        name: "TORNADO FRIES",
         para: "Choice of cheese topped",
         img: `${item1}`,
         price: "2.95",
@@ -282,21 +290,21 @@ export const MenuData = [
       {
         name: "HAMBURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item30}`,
         price: "7.95 - 8.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "DOUBLE HAMBURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item48}`,
         price: "8.95 - 9.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "CHEESEBURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item2}`,
         price: "8.95 - 9.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -310,21 +318,21 @@ export const MenuData = [
       {
         name: "TEXAS FOREVER BURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item42}`,
         price: "11.95 - 12.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "THE ALAMO BURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item43}`,
         price: "12.95 - 13.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "MUSHROOM SWISS",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item49}`,
         price: "12.95 - 13.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -337,9 +345,9 @@ export const MenuData = [
       },
       {
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "BREAKFAST BURGER",
-        name: "8.95",
+        img: `${item50}`,
+        price: "8.95",
+        name: "BREAKFAST BURGER",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
@@ -352,7 +360,7 @@ export const MenuData = [
       {
         name: "GRILLED CHICKEN SANDWICH",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item3}`,
         price: "11.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -364,9 +372,9 @@ export const MenuData = [
         sub_category: "SANDWICHES & BURGERS",
       },
       {
-        name: "CHILI CHEESEBURGER",
+        name: "CHILLI CHEESE BURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item20}`,
         price: "9.95 - 10.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -380,21 +388,21 @@ export const MenuData = [
       {
         name: "Spicy Chicken Sandwich",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item39}`,
         price: "11.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "THE BIG PHILLY",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item44}`,
         price: "11.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "PATTY MELT",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item35}`,
         price: "9.95 - 10.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -408,14 +416,14 @@ export const MenuData = [
       {
         name: "FRIED FISH SANDWICH",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item53}`,
         price: "10.95",
         sub_category: "SANDWICHES & BURGERS",
       },
       {
         name: "PO BOY",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item36}`,
         price: "10.95 - 11.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -449,7 +457,7 @@ export const MenuData = [
       {
         name: "SAUSAGE, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item54}`,
         price: "5.95",
         sub_category: "BISCUITS",
       },
@@ -470,7 +478,7 @@ export const MenuData = [
       {
         name: "WESTERN OMELETTE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item55}`,
         price: "8.95",
         sub_category: "OMETELLETS",
       },
@@ -478,42 +486,42 @@ export const MenuData = [
         name: "CHEESE OMELETTE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	6.95",
+        price: "6.95",
         sub_category: "OMETELLETS",
       },
       {
         name: "MEAT OMELETTE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	7.95",
+        price: "7.95",
         sub_category: "OMETELLETS",
       },
       {
         name: "HAM, EGG & CHEESE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	2.95",
+        price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "SAUSAGE, EGG & CHEESE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	2.95",
+        price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "BACON, EGG & CHEESE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	2.95",
+        price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "POTATO, EGG & CHEESE",
         para: "Choice of cheese topped",
         img: `${item1}`,
-        price: "	2.95",
+        price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
@@ -533,21 +541,21 @@ export const MenuData = [
       {
         name: "HUNGRY MAN BREAKFAST",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item31}`,
         price: "8.95",
         sub_category: "BREAKFAST",
       },
       {
         name: "PORK CHOP & EGG",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item37}`,
         price: "6.95",
         sub_category: "BREAKFAST",
       },
       {
         name: "HAMBURGER STEAK AND EGG",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item29}`,
         price: "7.95",
         sub_category: "BREAKFAST",
       },
@@ -629,7 +637,7 @@ export const MenuData = [
       {
         name: "STRAWBERRY SHORTCAKE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item40}`,
         price: "3",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
@@ -708,7 +716,7 @@ export const MenuData = [
         img: `${drink6}`,
         name: "Strawberry Shortcake",
         para: "Pepper Jack, American and cheddar cheese, lettuce, tomato, sautéed ......",
-        img: `${item1}`,
+        img: `${item40}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
