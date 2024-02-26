@@ -44,7 +44,7 @@ export const Category = () => {
             {Object.entries(groupedItems).map(([subCategory, items]) => (
               <div key={subCategory}>
                 {subCategories.length > 1 && (
-                  <h3 className={`${style["sub-text"]}`}>{subCategory}</h3>
+                  <h4 className={`${style["sub-text"]}`}>{subCategory}</h4>
                 )}
                 <div id={`${style["menu_card"]}`}>
                   {items.map((data, index) => (

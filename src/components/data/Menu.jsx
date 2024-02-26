@@ -7,14 +7,14 @@ import menu12 from "../../assets/Compressed/Menu/menu12-min.webp";
 import menu8 from "../../assets/Compressed/Menu/menu8-min.webp";
 import menu10 from "../../assets/Compressed/Menu/menu10-min.webp";
 import menu11 from "../../assets/Compressed/Menu/menu11-min.webp";
-import drink1 from "../../assets/Compressed/drinks/drink1-min.webp";
-import drink2 from "../../assets/Compressed/drinks/drink2-min.webp";
-import drink3 from "../../assets/Compressed/drinks/drink3-min.webp";
-import drink4 from "../../assets/Compressed/drinks/drink4-min.webp";
-import drink5 from "../../assets/Compressed/drinks/drink5-min.webp";
+import drink1 from "../../assets/Compressed/drinks/punch.webp";
+import drink2 from "../../assets/Compressed/drinks/margrita.webp";
+import drink3 from "../../assets/Compressed/drinks/pina.webp";
+import drink4 from "../../assets/Compressed/drinks/ultra.webp";
+import drink5 from "../../assets/Compressed/drinks/bug.webp";
 import drink6 from "../../assets/Compressed/drinks/asdasdasd-min.webp";
 import item1 from "../../assets/items/Drinks (2).webp";
-import item2 from "../../assets/items/Cheese Burger.webp";
+import item2 from "../../assets/items/Cheeseburger.webp";
 import item3 from "../../assets/items/Grilled Chicken Sandwich.webp";
 import item4 from "../../assets/items/12.webp";
 import item5 from "../../assets/items/16.webp";
@@ -64,10 +64,40 @@ import item48 from "../../assets/items/Double Hamburger.webp";
 import item49 from "../../assets/items/Mushroom Swiss.webp";
 import item50 from "../../assets/items/BREAKFAST BURGER.webp";
 import item51 from "../../assets/items/Hamburger Steak.webp";
-import item52 from "../../assets/items/SOUTH TEXAS GRILLED CHICKEN.webp";
+import item52 from "../../assets/items/southCG.webp";
 import item53 from "../../assets/items/FRIED FISH SANDWICH.webp";
 import item54 from "../../assets/items/Sausage, Egg, and Cheese Biscuit (Breakfast) 1.webp";
 import item55 from "../../assets/items/WESTERN OMELET.webp";
+import item56 from "../../assets/items/Mozerella-Sticks.webp";
+import item57 from "../../assets/items/texas-poppers.webp";
+import item58 from "../../assets/items/loaded-baked-potatoes.webp";
+import item59 from "../../assets/items/Corn-Dog.webp";
+import item60 from "../../assets/items/Three-SLider.webp";
+import item61 from "../../assets/items/Big-Fish.webp";
+import item62 from "../../assets/items/Green-Beans.webp";
+import item63 from "../../assets/items/mustard-greens.webp";
+import item64 from "../../assets/items/Mashed-Potatoes.webp";
+import item65 from "../../assets/items/French-Fries.webp";
+import item66 from "../../assets/items/Pulled-Pork-Sandwich.webp";
+import item67 from "../../assets/items/Egg-&-Cheese.webp";
+import item68 from "../../assets/items/Bacon-Cheese-Biscuit.webp";
+import item69 from "../../assets/items/Bacon,-Egg-and-Cheese.webp";
+import item70 from "../../assets/items/Sausage-Biscuit.webp";
+import item71 from "../../assets/items/MEAT-OMELETTE.webp";
+import item72 from "../../assets/items/HAM,-EGG-&-CHEESE.webp";
+import item73 from "../../assets/items/SAUSAGE_-EGG-_-CHEESE.webp";
+import item74 from "../../assets/items/BACON,-EGG-&-CHEESE.webp";
+import item75 from "../../assets/items/CHEESE-OMELETTE.webp";
+import item76 from "../../assets/items/POTATO,-EGG-&-CHEESE.webp";
+import item77 from "../../assets/items/PANCAKE.webp";
+import item78 from "../../assets/items/WAFFLE.webp";
+import item79 from "../../assets/items/HAM-STEAK-AND-EGG.webp";
+import item80 from "../../assets/items/CHOCOLATE-(shakes).webp";
+import item81 from "../../assets/items/VANILLA-(shakes)-(2).webp";
+import item82 from "../../assets/items/Strawberry-SHake.webp";
+import item83 from "../../assets/items/blt.webp";
+import item84 from "../../assets/items/TornadoFries.webp";
+import item85 from "../../assets/items/plain.webp";
 
 export const MenuData = [
   {
@@ -105,14 +135,14 @@ export const MenuData = [
       {
         name: "8 MOZZARELLA STIX",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item56}`,
         price: "8.95",
         sub_category: "STARTERS",
       },
       {
         name: "TEXAS POPPERS",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item57}`,
         price: "8.95",
         sub_category: "STARTERS",
       },
@@ -125,21 +155,21 @@ export const MenuData = [
       {
         name: "LOADED BAKED POTATO",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item58}`,
         price: "5.95",
         sub_category: "SNACKS",
       },
       {
         name: "CORN DOG",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item59}`,
         price: "2.95",
         sub_category: "SNACKS",
       },
       {
         name: "THREE SLIDERS",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item60}`,
         price: "6.95",
         sub_category: "SNACKS",
       },
@@ -194,7 +224,7 @@ export const MenuData = [
       {
         name: "BIG FISH",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item61}`,
         price: "12.95",
         sub_category: "ENTREES",
       },
@@ -228,14 +258,14 @@ export const MenuData = [
       {
         name: "GREEN BEANS",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item62}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
       {
         name: "MUSTARD GREEN",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item63}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
@@ -249,7 +279,7 @@ export const MenuData = [
       {
         name: "FRENCH FRIES",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item65}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
@@ -270,14 +300,14 @@ export const MenuData = [
       {
         name: "TORNADO FRIES",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item84}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
       {
         name: "MASHED POTATOES",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item64}`,
         price: "2.95",
         sub_category: "SIDES & ADD ONS",
       },
@@ -311,7 +341,7 @@ export const MenuData = [
       {
         name: "DOUBLE CHEESEBURGER",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item23}`,
         price: "9.95 - 10.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -353,7 +383,7 @@ export const MenuData = [
       {
         name: "TEXAS BLT",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item83}`,
         price: "8.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -367,7 +397,7 @@ export const MenuData = [
       {
         name: "PULLED PORK SANDWICH",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item66}`,
         price: "11.95",
         sub_category: "SANDWICHES & BURGERS",
       },
@@ -436,21 +466,21 @@ export const MenuData = [
       {
         name: "EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item67}`,
         price: "2.95",
         sub_category: "BISCUITS",
       },
       {
         name: "BACON & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item68}`,
         price: "3.95",
         sub_category: "BISCUITS",
       },
       {
         name: "BACON, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item69}`,
         price: "4.95",
         sub_category: "BISCUITS",
       },
@@ -464,14 +494,14 @@ export const MenuData = [
       {
         name: "SAUSAGE BISCUIT",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item70}`,
         price: "2.95",
         sub_category: "BISCUITS",
       },
       {
         name: "PLAIN",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item85}`,
         price: "0.95",
         sub_category: "BISCUITS",
       },
@@ -485,56 +515,56 @@ export const MenuData = [
       {
         name: "CHEESE OMELETTE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item75}`,
         price: "6.95",
         sub_category: "OMETELLETS",
       },
       {
         name: "MEAT OMELETTE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item71}`,
         price: "7.95",
         sub_category: "OMETELLETS",
       },
       {
         name: "HAM, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item72}`,
         price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "SAUSAGE, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item73}`,
         price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "BACON, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item74}`,
         price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "POTATO, EGG & CHEESE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item76}`,
         price: "2.95",
         sub_category: "BREAKFAST TACOS",
       },
       {
         name: "1 PANCAKE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item77}`,
         price: "0.95",
         sub_category: "PANCAKEE & WAFFLES",
       },
       {
         name: "1 WAFFLE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item78}`,
         price: "1.95",
         sub_category: "PANCAKEE & WAFFLES",
       },
@@ -562,7 +592,7 @@ export const MenuData = [
       {
         name: "HAM STEAK AND EGG",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item79}`,
         price: "7.95",
         sub_category: "BREAKFAST",
       },
@@ -575,21 +605,21 @@ export const MenuData = [
       {
         name: "CHOCOLATE",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item80}`,
         price: "6.95",
         sub_category: "SHAKES",
       },
       {
         name: "VANILLA",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item81}`,
         price: "6.95",
         sub_category: "SHAKES",
       },
       {
         name: "STRAWBERRY",
         para: "Choice of cheese topped",
-        img: `${item1}`,
+        img: `${item82}`,
         price: "6.95",
         sub_category: "SHAKES",
       },
@@ -608,7 +638,7 @@ export const MenuData = [
         sub_category: "ICE CREAM",
       },
       {
-        name: "ADD CHOCOLATE DRIZZLE FOR",
+        name: "ADD CHOCOLATE DRIZZLE",
         para: "Choice of cheese topped",
         img: `${item1}`,
         price: "0.5",
@@ -623,43 +653,43 @@ export const MenuData = [
       {
         name: "MICHELOB ULTRA",
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "2",
+        img: `${drink4}`,
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
       {
         name: "BUD LIGHT",
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "2",
+        img: `${drink5}`,
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
       {
         name: "STRAWBERRY SHORTCAKE",
         para: "Choice of cheese topped",
         img: `${item40}`,
-        price: "3",
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
       {
         name: "STRAWBERRY MARGARITA",
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "3",
+        img: `${drink2}`,
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
       {
         name: "PINA COLADA",
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "3",
+        img: `${drink3}`,
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
       {
         name: "TEXAS PUNCH",
         para: "Choice of cheese topped",
-        img: `${item1}`,
-        price: "3",
+        img: `${drink1}`,
+        price: "12.45",
         sub_category: "ALCOHOLIC & BEVERAGES",
       },
     ],
@@ -667,6 +697,7 @@ export const MenuData = [
   {
     img: `${menu11}`,
     head: "DAILY DEALS",
+    items: [],
   },
   {
     img: ``,
@@ -676,7 +707,6 @@ export const MenuData = [
         img: `${drink1}`,
         name: "TEXAS PUNCH",
         para: "Choice of cheese topped with lettuce, tomato, fried onion strings",
-        img: `${item1}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
@@ -684,7 +714,6 @@ export const MenuData = [
         img: `${drink2}`,
         name: "Strawberry Margarita",
         para: "Choice of cheese topped with lettuce, tomato, fried onion strings",
-        img: `${item1}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
@@ -692,7 +721,6 @@ export const MenuData = [
         img: `${drink3}`,
         name: "Pina Colada",
         para: "Choice of cheese topped with lettuce, tomato, fried onion strings",
-        img: `${item1}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
@@ -700,7 +728,6 @@ export const MenuData = [
         img: `${drink4}`,
         name: "Michelob Ultra",
         para: "Choice of cheese topped with lettuce, tomato, fried onion strings",
-        img: `${item1}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
@@ -708,7 +735,6 @@ export const MenuData = [
         img: `${drink5}`,
         name: "Bud Light",
         para: "Pepper jack cheese, bacon, sautéed jalapeños, lettuce, tomato ......",
-        img: `${item1}`,
         price: "12.45",
         sub_category: "DRINKS",
       },
@@ -716,7 +742,6 @@ export const MenuData = [
         img: `${drink6}`,
         name: "Strawberry Shortcake",
         para: "Pepper Jack, American and cheddar cheese, lettuce, tomato, sautéed ......",
-        img: `${item40}`,
         price: "12.45",
         sub_category: "DRINKS",
       },

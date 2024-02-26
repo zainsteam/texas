@@ -43,10 +43,12 @@
 
         .sub-text{
             text-align: center;
-            color: #822e1c;
+            background-color: #822e1c;
             border: 2px solid #822e1c;
             padding: 10px;
-            margin: 0 10%;
+            margin: 0 auto;
+            width: fit-content;
+            color: white;
         }
 
         h1 {
