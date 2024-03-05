@@ -5,12 +5,15 @@ const Copyright = () => {
       <div className={`${style["footer_bottom"]}`}>
         <hr />
         <p>
-          ©2023 Texas Forever Cafe and Grill All Rights Reserved |
+          ©2024 Texas Forever Cafe and Grill All Rights Reserved |
           <span>
             {" "}
             Design & Developed by
             <span>
-              <a href="https://www.mean3.com" target="_black"></a> Mean3 Pvt Ltd
+              <a href="https://www.mean3.com" target="_black">
+                {" "}
+                Mean3 Pvt Ltd{" "}
+              </a>
             </span>
           </span>
         </p>

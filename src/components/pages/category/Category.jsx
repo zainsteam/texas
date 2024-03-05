@@ -48,14 +48,19 @@ export const Category = () => {
                 )}
                 <div id={`${style["menu_card"]}`}>
                   {items.map((data, index) => (
-                    <div key={index} className={`${style["menu_card"]}`}>
-                      <div className={`${style["drink_height"]}`}>
-                        <img src={data.img} alt="" />
+                    <a href={data.url}>
+                      <div key={index} className={`${style["menu_card"]}`}>
+                        <div className={`${style["drink_height"]}`}>
+                          <img src={data.img} alt="" />
+                        </div>
+                        <h2>{data.name}</h2>
+
+                        <p className={data.para ? "" : `${style["hidden"]}`}>
+                          {data.para}
+                        </p>
+                        <h3>{data.price}</h3>
                       </div>
-                      <h2>{data.name}</h2>
-                      <p>{data.para}</p>
-                      <h3>{data.price}</h3>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>

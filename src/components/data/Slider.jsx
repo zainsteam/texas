@@ -1,6 +1,6 @@
 //mock.js
 import Slide_image_1 from "../../assets/Compressed/carsoul1-min.webp";
-import Slide_image_2 from "../../assets/Compressed/carsoul2-min.webp";
+import Slide_image_2 from "../../assets/Compressed/web starter.webp";
 import Slide_image_3 from "../../assets/Compressed/carsoul3-min.webp";
 
 export const Slider = [

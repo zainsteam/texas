@@ -24,11 +24,7 @@ export const Menu = () => {
             <h1>Texas Forever Menu</h1>
             <div id={`${style["menu_card"]}`}>
               {menuData.map((data, index) => (
-                <Link
-                  key={index}
-                  to={`/category/${data.head}`}
-                  className={data.head == "Drinks" ? `${style["hidden"]}` : ""}
-                >
+                <Link key={index} to={`/category/${data.head}`}>
                   <div className={`${style["menu_card"]}`}>
                     <img src={data.img} alt="" />
                     <h2>{data.head}</h2>

@@ -111,18 +111,75 @@ const Footer = () => {
                   ></path>
                 </svg>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://www.google.com/search?q=texas+forever+channelview&oq=texas+forever+channelview&aqs=chrome..69i57j0l3.8087j0j7&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="21"
-                  height="17"
-                  viewBox="0 0 21 17"
-                  fill="none"
+                  x="0px"
+                  y="0px"
+                  width="50"
+                  height="50"
+                  viewBox="0,0,256,256"
                 >
-                  <path
-                    d="M20.1854 2.16293C19.4642 2.49615 18.6869 2.71513 17.8815 2.81986C18.7056 2.31526 19.3425 1.51552 19.6422 0.553931C18.8648 1.02997 18.0032 1.36319 17.0948 1.5536C16.3549 0.734824 15.3153 0.258789 14.1353 0.258789C11.9344 0.258789 10.1362 2.08676 10.1362 4.34317C10.1362 4.66687 10.1737 4.98106 10.2392 5.2762C6.90511 5.10482 3.93625 3.47678 1.96013 1.01092C1.61361 1.61073 1.41694 2.31526 1.41694 3.05787C1.41694 4.47646 2.11935 5.73319 3.20574 6.44724C2.54079 6.44724 1.92267 6.25683 1.37947 5.97121V5.99977C1.37947 7.98007 2.76557 9.63668 4.6012 10.008C4.01186 10.1719 3.39314 10.1947 2.79366 10.0746C3.04804 10.8862 3.54621 11.5964 4.21817 12.1053C4.89012 12.6142 5.70206 12.8963 6.53986 12.9118C5.1197 14.0547 3.35933 14.6725 1.54805 14.6636C1.22963 14.6636 0.9112 14.6446 0.592773 14.6065C2.37222 15.768 4.48881 16.444 6.75526 16.444C14.1353 16.444 18.1905 10.2174 18.1905 4.8192C18.1905 4.63831 18.1905 4.46694 18.1812 4.28604C18.9679 3.7148 19.6422 2.99123 20.1854 2.16293Z"
-                    fill="white"
-                  ></path>
+                  <g
+                    fill-opacity="0"
+                    fill="#dddddd"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                  >
+                    <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
+                  </g>
+                  <g
+                    fill="#822e1b"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                  >
+                    <path
+                      d="M15.36,256c-8.48309,0 -15.36,-6.87691 -15.36,-15.36v-225.28c0,-8.48309 6.87691,-15.36 15.36,-15.36h225.28c8.48309,0 15.36,6.87691 15.36,15.36v225.28c0,8.48309 -6.87691,15.36 -15.36,15.36z"
+                      id="shape"
+                    ></path>
+                  </g>
+                  <g
+                    fill="#ffffff"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                  >
+                    <g transform="scale(5.12,5.12)">
+                      <path d="M25.99609,48c-12.68359,0 -23.00391,-10.31641 -23.00391,-23c0,-12.68359 10.32031,-23 23.00391,-23c5.74609,0 11.24609,2.12891 15.49219,5.99609l0.77344,0.70703l-7.58594,7.58594l-0.70312,-0.60156c-2.22656,-1.90625 -5.05859,-2.95703 -7.97656,-2.95703c-6.76562,0 -12.27344,5.50391 -12.27344,12.26953c0,6.76563 5.50781,12.26953 12.27344,12.26953c4.87891,0 8.73438,-2.49219 10.55078,-6.73828h-11.55078v-10.35547l22.55078,0.03125l0.16797,0.79297c1.17578,5.58203 0.23438,13.79297 -4.53125,19.66797c-3.94531,4.86328 -9.72656,7.33203 -17.1875,7.33203z"></path>
+                    </g>
+                  </g>
                 </svg>
               </a>
             </div>
@@ -167,12 +224,12 @@ const Footer = () => {
           <div className={`${style["partners"]}`}>
             <h1>Our Delivery Partner</h1>
             <div className={`${style["partner_img"]}`}>
-              <a href="">
+              {/* <a href="https://www.ubereats.com/store/texas-forever-bar-%26-grill/zEZwM-AiQduogUo5itgQig">
                 <img src={UberEat} alt="" />
               </a>
-              <a href="">
+              <a href="https://www.grubhub.com/restaurant/texas-forever-bar--grill-17124-b-east-fwy-channelview/1711751">
                 <img src={Grubhub} alt="" />
-              </a>
+              </a> */}
               <a
                 href="https://www.doordash.com/store/texas-forever-bar---grill-channelview-803299/1132667/en-US?preview=1"
                 target="_blank"

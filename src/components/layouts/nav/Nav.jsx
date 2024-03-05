@@ -35,7 +35,7 @@ export const Nav = () => {
         <nav>
           <div className={`${style["main"]}`}>
             <div className={`${style["left"]}`}>
-              <Link to="/Home">
+              <Link to="/">
                 <img src={logo} alt="" />
               </Link>
             </div>
@@ -68,7 +68,7 @@ export const Nav = () => {
                     to="/menu"
                     className={
                       splitLocation[1] === "menu" ||
-                      (splitLocation[2] != "Drinks" &&
+                      (splitLocation[2] != "ALCOHOLIC%20&%20BEVERAGES" &&
                         splitLocation[1] !== "about" &&
                         splitLocation[1] !== "news" &&
                         splitLocation[1] !== "contact" &&
@@ -84,9 +84,11 @@ export const Nav = () => {
                 <li>
                   <Link
                     id="navDrinks"
-                    to="/category/Drinks"
+                    to="/category/ALCOHOLIC & BEVERAGES"
                     className={
-                      splitLocation[2] === "Drinks" ? `${style["active"]}` : ""
+                      splitLocation[2] === "ALCOHOLIC%20&%20BEVERAGES"
+                        ? `${style["active"]}`
+                        : ""
                     }
                   >
                     Drinks

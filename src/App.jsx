@@ -11,7 +11,7 @@ import { Submenu } from "./components/pages/submenu/submenu";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/news/:title" element={<Blog />} />
         <Route path="/menu/:submenu" element={<Submenu />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

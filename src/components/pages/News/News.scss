@@ -64,18 +64,20 @@
               /* border: 1.092px solid #822E1B; */
               box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 20px 0px;
               width: 23.89425rem;
-              height: 520px;
+            //   height: 520px;
               min-height: 19.525rem;
               display: flex;
               /* justify-content: center; */
               /* align-items: center; */
               flex-direction: column;
               gap: .9rem;
+              border-radius: 20px;
 
               img {
                   max-width: 23.89425rem;
                   width: 100%;
                   margin-bottom: 1rem;
+                  border-radius: 20px;
               }
 
 
@@ -97,6 +99,7 @@
                       line-height: 1.2em;
                       height: 2.5em;
                       overflow: hidden;
+                      margin-bottom: 0;
                       text-overflow: ellipsis;
                       &:hover {
                           color: #822e1b81;

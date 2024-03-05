@@ -8,6 +8,7 @@ import social2 from "../../../assets/imgs/Group 221.png";
 import social3 from "../../../assets/imgs/Group 220.png";
 import social4 from "../../../assets/imgs/Group 219.png";
 import { useEffect } from "react";
+import Form_01 from "../../forms/form01";
 
 export const Contact = () => {
   useEffect(() => {
@@ -24,8 +25,8 @@ export const Contact = () => {
             come to share a great meal.
           </p>
         </div>
-
         <div className="row mt-5 mb-5 m-2 justify-content-around">
+          {/* <Form_01 /> */}
           <form className="col-lg-4 mb-5 col-sm-12">
             <p className="contact">CONTACT US</p>
             <div className="mb-3">
@@ -81,13 +82,17 @@ export const Contact = () => {
             </div>
             <div className="d.flex infoline">
               <img className="" src={vector2} />
-              <span className="">956-772-4700</span>
+              <span className="">(832) 694-2440 </span>
             </div>
             <div className="social-icons">
-              <img className="icon" src={social1} />
-              <img className="icon" src={social2} />
-              <img className="icon" src={social3} />
-              <img className="icon" src={social4} />
+              <a href="https://www.facebook.com/TexasForeverRestaurant/">
+                <img className="icon" src={social1} />
+              </a>
+              <a href="https://www.instagram.com/texasforeverrestaurant/?igshid=b8r2lc07yqud">
+                <img className="icon" src={social2} />
+              </a>
+              {/* <img className="icon" src={social3} /> */}
+              {/* <img className="icon" src={social4} /> */}
             </div>
           </div>
         </div>

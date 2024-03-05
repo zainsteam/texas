@@ -41,7 +41,9 @@ export const FirstSec = () => {
               data-bs-interval="10000"
             >
               <img src={data.src} className="d-block w-100" alt="..." />
-              <div className="d-none d-md-block carousel-caption">
+              <div
+                className={`${style["carousel-caption"]} d-none d-md-block carousel-caption`}
+              >
                 <p>{data.text}</p>
                 <div className={`${style["ca_btn"]}`}>
                   <Link to={data.button1_link}>

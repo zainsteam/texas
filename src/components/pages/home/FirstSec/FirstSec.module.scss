@@ -8,6 +8,10 @@
             box-sizing: border-box;
     outline: none;
 }
+.carousel-caption{
+    left: 28%;
+    right: 28%;
+}
 .carousel-item {
     img {
         height: calc(100vh - 6.375rem);

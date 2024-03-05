@@ -70,6 +70,10 @@
             padding: 4rem 5vmin;
             gap: 2rem;
 
+            a{
+                text-decoration: none;
+            }
+
             .menu_card {
                 border-radius: 2.03025rem;
                 border: 1.805px solid #822E1B;
@@ -81,6 +85,13 @@
                 flex-direction: column;
                 gap: 1.2rem;
                 padding: 1rem 0;
+
+                .hidden{
+                    display: none ;
+                  }
+
+
+                
 
 
                 .drink_height {
@@ -96,8 +107,10 @@
                     }
                 }
 
+
                 h2 {
                     color: #822E1B;
+                    text-decoration: none;
                     font-family: Raleway;
                     font-size: 1.75rem;
                     font-style: normal;
@@ -111,6 +124,7 @@
 
                 p {
                     color: #822E1B;
+                    text-decoration: none;
                     font-family: Raleway;
                     font-size: 0.875rem;
                     font-style: normal;
@@ -125,6 +139,7 @@
                 h3 {
                     color: #822E1B;
                     font-family: Raleway;
+                    text-decoration: none;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 700;

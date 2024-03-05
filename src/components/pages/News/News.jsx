@@ -29,15 +29,15 @@ export const News = () => {
                   <Link to={`/news/${index}`}>
                     <img src={data.img} alt="" />
                     <h2>{data.heading}</h2>
-                  </Link>
-                  <div className="cardAuthor">
-                    <img
+                    <div className="cardAuthor">
+                      {/* <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcNPOPDCWiEvN0x11fc_02MzdhtzcLOwg-qg&usqp=CAU"
                       alt=""
-                    />
-                    <h5>M Talha</h5>
-                  </div>
-                  <p>{data.para}</p>
+                    /> */}
+                      <h5>By: {data.author}</h5>
+                    </div>
+                    <p>{data.para}</p>
+                  </Link>
                 </div>
               ))}
             </div>
